@@ -7,4 +7,4 @@
 # Steps to Run
 Clone the repo and follow these steps:
 1. Clone the repoitory
-2. Go to the Project Directory and run $ cd app && spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py && app ..
+2. Go to the Project Directory and run $ **cd app && spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py && cd ..**
