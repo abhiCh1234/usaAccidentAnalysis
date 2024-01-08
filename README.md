@@ -4,7 +4,8 @@
 3) Data.zip will be automatically unzipped in **app/Data** on Runtime
 4) **app/src** is compiled.
 
-# Steps to Run
+# Steps to Execute
 Clone the repo and follow these steps:
 1. Clone the repoitory
 2. Go to the Project Directory and run $ **cd app && spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py && cd ..**
+3. Or in **app** folder run $ **spark-submit --master "local[*]" --py-files src.zip --files config.yaml main.py**
