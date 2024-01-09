@@ -1,0 +1,24 @@
+DATA_ZIP_PATH: ../Data.zip
+SPARK_APP_NAME: BCG-Accident-Analysis
+
+INPUT_FILES_PATH:
+  Charges: ../Data/Charges_use.csv
+  Damages: ../Data/Damages_use.csv
+  Endorse: ../Data/Endorse_use.csv
+  Primary_Person: ../Data/Primary_Person_use.csv
+  Units: ../Data/Units_use.csv
+  Restrict: ../Data/Restrict_use.csv
+
+RESULT_PATH: 
+  Analysis1: ../Data/Result/crashMaleCount_analysis1
+  Analysis2: ../Data/Result/twoWheelersCrashCount_analysis2
+  Analysis3: ../Data/Result/top5makersWithDeathAndAirbagFailure_analysis3
+  Analysis4: ../Data/Result/vehiclesCountWithValidLicenceAndHitAndRun_analysis4
+  Analysis5: ../Data/Result/statesWithHighestNoFemaleCrashCount_analysis5
+  Analysis6: ../Data/Result/top3to5CompaniesContributingInjuries_analysis6
+  Analysis7: ../Data/Result/topEthGrpPerBodystyle_analysis7
+  Analysis8: ../Data/Result/top5zipWithMostAlchCarCrashes_analysis8
+  Analysis9: ../Data/Result/uniqueCrashIdsWithNoPropDmgAndInsuranceAvailed_analysis9
+  Analysis10: ../Data/Result/top5brandsWithSpeedCharges_analysis10
+
+
