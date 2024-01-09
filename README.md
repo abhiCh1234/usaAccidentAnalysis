@@ -1,7 +1,7 @@
 # General Information
 1) Inside app we have **config.yaml** with i/p, o/p paths
-2) Results are will be stores in **Data/Result** on Runtime
-3) Data.zip will be automatically unzipped in **Data** on Runtime
+2) Data.zip will be automatically unzipped in **Data** on Runtime.
+3) Results will be stored in **Data/Result** on Runtime
 
 # Steps to Execute
 Clone the repo and follow these steps:
